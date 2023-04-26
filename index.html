@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Games Review</title>
+</head>
+
+<body>
+
+    <!-- The Main Section -->
+    <section class="games">
+        <header>
+            <img src="images/wraper.png" alt="header" class="headerImage w-100">
+        </header>
+
+        <div class="container-fluid bgDark">
+            <nav class="navbar navbar-dark bg-primary navbar-expand-lg m-auto p-0 w-75 rounded-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><span></span> Games Review</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" category="MMORPG">MMORPG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" category="SHOOTER">SHOOTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" category="SAILING">SAILING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" category="PERMADEATH">PERMADEATH
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" category="SUPERHERO">SUPERHERO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" category="PIXEL">PIXEL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid bgDark pb-5 games">
+
+            <div class="container main-section games-list">
+                <div id="gamesList" class="row row-cols-1 row-cols-md-4 g-4">
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- The Game Details Page -->
+    <section class="details d-none">
+
+        <div class="gameHeader container d-flex justify-content-between align-items-center ">
+            <h2>Game Details</h2>
+            <span id="closeBtn" class="close-btn"></span>
+        </div>
+
+        <div id="detailsContent" class="container">
+
+        
+        </div>
+    </section>
+
+    <!-- The Loading Spinner -->
+    <div class="loadingPage d-none">
+        <span class="loader"></span>
+    </div>
+
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.module.js" type="module"></script>
+</body>
+
+</html>
+
+
